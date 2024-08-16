@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "project_presentations/project_1.html#first-slide",
+    "href": "project_presentations/project_1.html#first-slide",
+    "title": "First Project",
+    "section": "First Slide",
+    "text": "First Slide\nOn the genesis of mankind."
+  },
+  {
+    "objectID": "project_presentations/project_1.html#second-slide",
+    "href": "project_presentations/project_1.html#second-slide",
+    "title": "First Project",
+    "section": "Second Slide",
+    "text": "Second Slide\nOn the fall of mankind.\n\n\n\nDatisimo"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sergio Gelves",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sergio Gelves",
+    "section": "",
+    "text": "Sergio Gelves is a data analyst. When not crunching data he reads about the cosmos."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "This is my first project.\nlink"
+  }
+]
