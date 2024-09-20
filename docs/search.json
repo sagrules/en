@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "project_presentations/project_1.html#first-slide",
-    "href": "project_presentations/project_1.html#first-slide",
-    "title": "First Project",
-    "section": "First Slide",
-    "text": "First Slide\nOn the genesis of mankind."
+    "objectID": "project_presentations/chess.html#description",
+    "href": "project_presentations/chess.html#description",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Description",
+    "text": "Description\nThe chess dataset is from the lichess server and has data of over 20,000 matches."
   },
   {
-    "objectID": "project_presentations/project_1.html#second-slide",
-    "href": "project_presentations/project_1.html#second-slide",
-    "title": "First Project",
-    "section": "Second Slide",
-    "text": "Second Slide\nOn the fall of mankind.\n\n\n\nDatisimo"
+    "objectID": "project_presentations/chess.html#player-winning-percent",
+    "href": "project_presentations/chess.html#player-winning-percent",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Player Winning Percent",
+    "text": "Player Winning Percent\nMost matches are rated matches and White wins about 50% of the time, Black wins about 45% of the time and there is a draw about 5% of the time.\n\n\nFigure 1"
   },
   {
     "objectID": "index.html",
@@ -32,6 +32,41 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "This is my first project.\nlink"
+    "text": "Chess Dataset"
+  },
+  {
+    "objectID": "project_presentations/chess.html#number-of-turns-until-game-finished",
+    "href": "project_presentations/chess.html#number-of-turns-until-game-finished",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Number of Turns Until Game Finished",
+    "text": "Number of Turns Until Game Finished\n50% of games end before turn 55. 90% of games end before turn 107.\n\n\nFigure 2"
+  },
+  {
+    "objectID": "project_presentations/chess.html#type-of-victory",
+    "href": "project_presentations/chess.html#type-of-victory",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Type of victory",
+    "text": "Type of victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
+  },
+  {
+    "objectID": "project_presentations/chess.html#openings",
+    "href": "project_presentations/chess.html#openings",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Openings",
+    "text": "Openings\nPlot of the ten most used openings.\n\n\nFigure 4"
+  },
+  {
+    "objectID": "project_presentations/chess.html#status-of-victory",
+    "href": "project_presentations/chess.html#status-of-victory",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Status of Victory",
+    "text": "Status of Victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
+  },
+  {
+    "objectID": "project_presentations/chess.html#player-rating",
+    "href": "project_presentations/chess.html#player-rating",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Player Rating",
+    "text": "Player Rating\n50% of players have a rating less than 1564. 90% of players have a rating less than 1979.\n\n\n\n\nDatisimo"
   }
 ]

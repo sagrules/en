@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Sergio Gelves">
-  <title>Datisimo - First Project</title>
+  <title>Datisimo - Chess Game Dataset From Lichess Server</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,7 +326,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">First Project</h1>
+  <h1 class="title">Chess Game Dataset From Lichess Server</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -337,15 +337,44 @@ Sergio Gelves
 </div>
 
 </section>
-<section id="first-slide" class="slide level2">
-<h2>First Slide</h2>
-<p>On the genesis of mankind.</p>
+<section id="description" class="slide level2">
+<h2>Description</h2>
+<p>The chess dataset is from the lichess server and has data of over 20,000 matches.</p>
 </section>
-<section id="second-slide" class="slide level2">
-<h2>Second Slide</h2>
-<p>On the fall of mankind.</p>
+<section id="player-winning-percent" class="slide level2">
+<h2>Player Winning Percent</h2>
+<p>Most matches are rated matches and White wins about 50% of the time, Black wins about 45% of the time and there is a draw about 5% of the time.</p>
 
-<div class="quarto-auto-generated-content">
+<img data-src="chess_files/figure-revealjs/fig-winner-1.png" id="fig-winner" width="960" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;1
+</p></section>
+<section id="number-of-turns-until-game-finished" class="slide level2">
+<h2>Number of Turns Until Game Finished</h2>
+<p>50% of games end before turn <code>55</code>. 90% of games end before turn <code>107</code>.</p>
+
+<img data-src="chess_files/figure-revealjs/fig-turns-1.png" id="fig-turns" width="960" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;2
+</p></section>
+<section id="status-of-victory" class="slide level2">
+<h2>Status of Victory</h2>
+<p>The majority of games end with a player resigning. The second largest result of games is checkmate.</p>
+
+<img data-src="chess_files/figure-revealjs/fig-victory-1.png" id="fig-victory" width="960" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;3
+</p></section>
+<section id="openings" class="slide level2">
+<h2>Openings</h2>
+<p>Plot of the ten most used openings.</p>
+
+<img data-src="chess_files/figure-revealjs/fig-opening-1.png" id="fig-opening" width="960" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;4
+</p></section>
+<section id="player-rating" class="slide level2">
+<h2>Player Rating</h2>
+<p>50% of players have a rating less than <code>1564</code>. 90% of players have a rating less than <code>1979</code>.</p>
+
+
+<img data-src="chess_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"><div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p><a href="../index.html">Datisimo</a></p>
 </div>
@@ -375,7 +404,7 @@ Sergio Gelves
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -385,7 +414,7 @@ Sergio Gelves
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -527,7 +556,7 @@ Sergio Gelves
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1200,
 
         height: 700,
 
@@ -561,6 +590,82 @@ Sergio Gelves
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
