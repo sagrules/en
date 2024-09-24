@@ -14,46 +14,11 @@
     "text": "Player Winning Percent\nMost matches are rated matches and White wins about 50% of the time, Black wins about 45% of the time and there is a draw about 5% of the time.\n\n\nFigure 1"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sergio Gelves",
-    "section": "",
-    "text": "This is a Quarto website."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sergio Gelves",
-    "section": "",
-    "text": "Sergio Gelves is a data analyst. When not crunching data he reads about the cosmos."
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Chess Dataset"
-  },
-  {
     "objectID": "project_presentations/chess.html#number-of-turns-until-game-finished",
     "href": "project_presentations/chess.html#number-of-turns-until-game-finished",
     "title": "Chess Game Dataset From Lichess Server",
     "section": "Number of Turns Until Game Finished",
     "text": "Number of Turns Until Game Finished\n50% of games end before turn 55. 90% of games end before turn 107.\n\n\nFigure 2"
-  },
-  {
-    "objectID": "project_presentations/chess.html#type-of-victory",
-    "href": "project_presentations/chess.html#type-of-victory",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Type of victory",
-    "text": "Type of victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
-  },
-  {
-    "objectID": "project_presentations/chess.html#openings",
-    "href": "project_presentations/chess.html#openings",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Openings",
-    "text": "Openings\nPlot of the ten most used openings.\n\n\nFigure 4"
   },
   {
     "objectID": "project_presentations/chess.html#status-of-victory",
@@ -63,10 +28,38 @@
     "text": "Status of Victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
   },
   {
+    "objectID": "project_presentations/chess.html#openings",
+    "href": "project_presentations/chess.html#openings",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Openings",
+    "text": "Openings\nPlot of the ten most used openings.\n\n\nFigure 4"
+  },
+  {
     "objectID": "project_presentations/chess.html#player-rating",
     "href": "project_presentations/chess.html#player-rating",
     "title": "Chess Game Dataset From Lichess Server",
     "section": "Player Rating",
     "text": "Player Rating\n50% of players have a rating less than 1564. 90% of players have a rating less than 1979.\n\n\n\n\nDatisimo"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Chess Slidedeck\nAAPL Dashboard"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sergio Gelves",
+    "section": "",
+    "text": "Sergio Gelves is a data analyst. When not crunching data he reads about the cosmos."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sergio Gelves",
+    "section": "",
+    "text": "This is a Quarto website."
   }
 ]
