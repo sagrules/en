@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "project_presentations/chess.html#description",
-    "href": "project_presentations/chess.html#description",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Description",
-    "text": "Description\nThe chess dataset is from the lichess server and has data of over 20,000 matches."
-  },
-  {
-    "objectID": "project_presentations/chess.html#player-winning-percent",
-    "href": "project_presentations/chess.html#player-winning-percent",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Player Winning Percent",
-    "text": "Player Winning Percent\nMost matches are rated matches and White wins about 50% of the time, Black wins about 45% of the time and there is a draw about 5% of the time.\n\n\nFigure 1"
-  },
-  {
-    "objectID": "project_presentations/chess.html#number-of-turns-until-game-finished",
-    "href": "project_presentations/chess.html#number-of-turns-until-game-finished",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Number of Turns Until Game Finished",
-    "text": "Number of Turns Until Game Finished\n50% of games end before turn 55. 90% of games end before turn 107.\n\n\nFigure 2"
-  },
-  {
-    "objectID": "project_presentations/chess.html#status-of-victory",
-    "href": "project_presentations/chess.html#status-of-victory",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Status of Victory",
-    "text": "Status of Victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
-  },
-  {
-    "objectID": "project_presentations/chess.html#openings",
-    "href": "project_presentations/chess.html#openings",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Openings",
-    "text": "Openings\nPlot of the ten most used openings.\n\n\nFigure 4"
-  },
-  {
-    "objectID": "project_presentations/chess.html#player-rating",
-    "href": "project_presentations/chess.html#player-rating",
-    "title": "Chess Game Dataset From Lichess Server",
-    "section": "Player Rating",
-    "text": "Player Rating\n50% of players have a rating less than 1564. 90% of players have a rating less than 1979.\n\n\n\n\nDatisimo"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
+    "objectID": "posts/health.html",
+    "href": "posts/health.html",
+    "title": "Health Shiny App",
     "section": "",
-    "text": "Chess Slidedeck\nAAPL Dashboard"
+    "text": "Health Shiny App"
   },
   {
     "objectID": "about.html",
@@ -56,10 +14,52 @@
     "text": "Sergio Gelves is a data analyst. When not crunching data he reads about the cosmos."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sergio Gelves",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Datisimo",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAAPL Dashboard\n\n\n\n\n\n\ndashboard\n\n\nR\n\n\nquarto\n\n\nAAPL\n\n\n\nSome financial metrics for Apple shown in a dashboard.\n\n\n\n\n\nSep 25, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nChess Game Dataset From Lichess Server\n\n\n\n\n\n\nslidedeck\n\n\nR\n\n\nquarto\n\n\nrevealjs\n\n\nchess\n\n\n\nA revealjs slidedeck presenting an analysis of chess data.\n\n\n\n\n\nSep 24, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Shiny App\n\n\n\n\n\n\nR\n\n\ntimeseries\n\n\nforecasting\n\n\nShiny\n\n\n\nA shiny app showing forecasts for hospital patients using various time series methods.\n\n\n\n\n\nSep 23, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/chess.html#description",
+    "href": "posts/chess.html#description",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Description",
+    "text": "Description\nThe chess dataset is from the lichess server and has data of over 20,000 matches."
+  },
+  {
+    "objectID": "posts/chess.html#player-winning-percent",
+    "href": "posts/chess.html#player-winning-percent",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Player Winning Percent",
+    "text": "Player Winning Percent\nMost matches are rated matches and White wins about 50% of the time, Black wins about 45% of the time and there is a draw about 5% of the time.\n\n\nFigure 1"
+  },
+  {
+    "objectID": "posts/chess.html#number-of-turns-until-game-finished",
+    "href": "posts/chess.html#number-of-turns-until-game-finished",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Number of Turns Until Game Finished",
+    "text": "Number of Turns Until Game Finished\n50% of games end before turn 55. 90% of games end before turn 107.\n\n\nFigure 2"
+  },
+  {
+    "objectID": "posts/chess.html#status-of-victory",
+    "href": "posts/chess.html#status-of-victory",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Status of Victory",
+    "text": "Status of Victory\nThe majority of games end with a player resigning. The second largest result of games is checkmate.\n\n\nFigure 3"
+  },
+  {
+    "objectID": "posts/chess.html#openings",
+    "href": "posts/chess.html#openings",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Openings",
+    "text": "Openings\nPlot of the ten most used openings.\n\n\nFigure 4"
+  },
+  {
+    "objectID": "posts/chess.html#player-rating",
+    "href": "posts/chess.html#player-rating",
+    "title": "Chess Game Dataset From Lichess Server",
+    "section": "Player Rating",
+    "text": "Player Rating\n50% of players have a rating less than 1564. 90% of players have a rating less than 1979.\n\n\n\n\nDatisimo"
   }
 ]
