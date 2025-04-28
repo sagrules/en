@@ -18,7 +18,7 @@
     "href": "portfolio.html",
     "title": "Datisimo",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAAPL Dashboard\n\n\n\n\n\n\ndashboard\n\n\nR\n\n\nquarto\n\n\nAAPL\n\n\n\nSome financial metrics for Apple shown in a dashboard.\n\n\n\n\n\nSep 25, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nChess Game Dataset From Lichess Server\n\n\n\n\n\n\nslidedeck\n\n\nR\n\n\nquarto\n\n\nrevealjs\n\n\nchess\n\n\n\nA revealjs slidedeck presenting an analysis of chess data.\n\n\n\n\n\nSep 24, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Shiny App\n\n\n\n\n\n\nR\n\n\ntimeseries\n\n\nforecasting\n\n\nShiny\n\n\n\nA shiny app showing forecasts for hospital patients using various time series methods.\n\n\n\n\n\nSep 23, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPopulation Maps Shiny App\n\n\n\n\n\n\nR\n\n\nmaps\n\n\nShiny\n\n\n\nA shiny app showing population maps from 1950 to 2100.\n\n\n\n\n\nApr 28, 2025\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nAAPL Dashboard\n\n\n\n\n\n\ndashboard\n\n\nR\n\n\nquarto\n\n\nAAPL\n\n\n\nSome financial metrics for Apple shown in a dashboard.\n\n\n\n\n\nSep 25, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nChess Game Dataset From Lichess Server\n\n\n\n\n\n\nslidedeck\n\n\nR\n\n\nquarto\n\n\nrevealjs\n\n\nchess\n\n\n\nA revealjs slidedeck presenting an analysis of chess data.\n\n\n\n\n\nSep 24, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Shiny App\n\n\n\n\n\n\nR\n\n\ntimeseries\n\n\nforecasting\n\n\nShiny\n\n\n\nA shiny app showing forecasts for hospital patients using various time series methods.\n\n\n\n\n\nSep 23, 2024\n\n\nSergio Gelves\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/chess.html#description",
@@ -61,5 +61,12 @@
     "title": "Chess Game Dataset From Lichess Server",
     "section": "Player Rating",
     "text": "Player Rating\n50% of players have a rating less than 1564. 90% of players have a rating less than 1979.\n\n\n\n\nDatisimo"
+  },
+  {
+    "objectID": "posts/maps.html",
+    "href": "posts/maps.html",
+    "title": "Population Maps Shiny App",
+    "section": "",
+    "text": "Population Maps Shiny App"
   }
 ]

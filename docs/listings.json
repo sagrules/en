@@ -2,6 +2,7 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/posts/maps.html",
       "/posts/aapl.html",
       "/posts/chess.html",
       "/posts/health.html"
